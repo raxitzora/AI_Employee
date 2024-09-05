@@ -1,0 +1,24 @@
+# Data processing and ingestion
+pandas==2.0.3
+openpyxl==3.1.2    # Required for reading Excel files
+xlrd==2.0.1        # Alternative for reading older Excel files
+jsonschema==4.17.3 # Optional, in case you use JSON validation
+
+# Machine learning and statistical analysis
+scikit-learn==1.3.0
+
+# Data visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Command-line interface (CLI)
+argparse==1.4.0
+
+# Natural Language Processing (basic)
+nltk==3.8.1
+
+# Unit testing
+unittest2==1.1.0
+
+# Optional dependencies for report generation
+reportlab==3.6.12  # For generating PDFs, if needed
